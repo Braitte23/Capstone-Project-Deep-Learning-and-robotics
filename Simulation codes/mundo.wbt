@@ -1,0 +1,285 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/devices/sharp/protos/SharpGP2Y0A41SK0F.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/street_furniture/protos/ClothRecyclingContainer.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/tables/protos/Desk.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/chairs/protos/Chair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Door.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/animals/protos/Dog.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/computers/protos/DesktopComputer.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/toys/protos/PaperBoat.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/toys/protos/RubberDuck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/obstacles/protos/Ramp30deg.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/WallPlug.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/samples/contests/rockin/protos/RoCKInAX01.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/balls/protos/FifaSoccerBall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/telephone/protos/Telephone.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/stairs/protos/StraightStairs.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.06048598983134555 -0.9482544971045977 0.31169673362906564 5.879519453967002
+  position -3.8122829629590305 0.40947007501009186 1.1880160278233203
+  follow "robot"
+}
+TexturedBackground {
+  luminosity 2
+  skybox FALSE
+}
+TexturedBackgroundLight {
+  texture "dawn_cloudy_empty"
+}
+RoCKInAX01 {
+  translation -1.3721346973290929 0.016481868125095882 0.019980380000000002
+  rotation 3.57961343665818e-17 -1.60756267836852e-17 1 2.8426456669403146
+}
+RectangleArena {
+  floorSize 7 7
+}
+RectangleArena {
+  translation 7.02 0 0
+  name "rectangle arena(1)"
+  floorSize 7 7
+}
+Telephone {
+  translation -1 -0.88 0.04
+}
+FifaSoccerBall {
+  translation -3.3875349686726186 1.886769827572443 0.11216253600000002
+  rotation 0.9266055465061872 -0.31014170566548255 -0.21263650578128673 1.61874440018756
+}
+WallPlug {
+  translation -0.52 0 1.03
+}
+Ramp30deg {
+  translation 2.44 0 0
+}
+Wall {
+  translation 6.02 -2.61 0
+}
+RubberDuck {
+  translation 1.2137760078562827 -0.8007358982340687 0.020469009102432874
+  rotation -1.7475702620520803e-16 1.8098855709150694e-16 1 0.18313770525337775
+}
+PaperBoat {
+  translation -0.6347649808397078 -0.180115827490069 -4.904999999998105e-05
+  rotation 7.15518769235057e-16 -1.0189895452368175e-16 -1 0.40732553473686034
+}
+DesktopComputer {
+  translation 1.07 -1.41 0
+  rotation 0 0 1 1.5708
+}
+Dog {
+  translation 1.64 0 0
+  scale 0.1
+}
+Door {
+  hidden translation_5 0.0066845024120759655 0.0017459157152003857 6.661338147750939e-15
+  hidden rotation_5 0 0 -0.9999999999999999 0.011945278093126711
+  translation 1.50897e-06 -3.2 0
+  rotation 0 0 1 -1.5707953071795862
+  position -0.011945278093112431
+}
+Table {
+  translation 2.21001 2.69 0
+  rotation 0 0 1 1.5708
+}
+Chair {
+  translation 2.44 -2.65 2.86266e-06
+  rotation 2.3464099999870814e-06 -2.3464099999870814e-06 0.9999999999944944 1.5708
+}
+Desk {
+  translation -2.6 -2.39 0
+}
+CardboardBox {
+  translation 0 -1.36 0.3
+}
+ClothRecyclingContainer {
+  translation -2.18 2.74 0
+}
+DEF robot Robot {
+  translation -1.8701793776088245 0.20206000315052927 0.04986250589815258
+  rotation -0.007201401907814242 0.0077122341932561915 -0.9999443290775294 1.637704662342147
+  children [
+    DEF sensorIR2 SharpGP2Y0A41SK0F {
+      translation -0.0622354 0.041022 -0.02
+      rotation 0 0 1 -3.1415853071795863
+      name "sensorIR2"
+    }
+    DEF camara Camera {
+      translation -3.30588e-07 0.09 0.03
+      rotation 0 0 1 1.5708
+      children [
+        DEF Linterna SpotLight {
+          attenuation 0 0 1
+          beamWidth 0.7
+          direction 1 0 0
+        }
+      ]
+      name "camara"
+      boundingObject Box {
+        size 0.01 0.01 0.01
+      }
+      physics Physics {
+      }
+      width 2048
+      height 1080
+      recognition Recognition {
+      }
+    }
+    DEF ultrasonico2 DistanceSensor {
+      translation -0.00102218 0.097764 0
+      rotation 0 0 -1 -1.5707953071795862
+      name "ultrasonico2"
+      boundingObject Box {
+        size 0.01 0.01 0.01
+      }
+      physics Physics {
+      }
+    }
+    DEF sensorIR1 SharpGP2Y0A41SK0F {
+      translation 0.0577648 0.0710225 -0.02
+      rotation 0 0 -1 -5.307179586466759e-06
+      name "sensorIR1"
+    }
+    DEF caster BallJoint {
+      jointParameters BallJointParameters {
+        position 4260.178756049441
+        anchor 0 0.06 -0.0375
+      }
+      jointParameters2 JointParameters {
+        position 76.65116593714353
+      }
+      jointParameters3 JointParameters {
+        position -6288.655277348504
+        axis 1 0 0
+      }
+      endPoint DEF caster Solid {
+        translation 0.0003006161198928492 0.05939298997302411 -0.036736070483600496
+        rotation -0.9274323289128498 -0.22304514461368896 0.30020016447621467 1.7696739032931028
+        children [
+          DEF caster Shape {
+            appearance PBRAppearance {
+            }
+            geometry Sphere {
+              radius 0.0125
+            }
+          }
+        ]
+        name "caster"
+        boundingObject USE caster
+        physics Physics {
+        }
+        linearVelocity 0.0002693887689362654 -0.0012267154726354195 6.4256852398656995e-06
+        angularVelocity 0.09811192140546833 0.02162634210675357 1.8561276869319734
+      }
+    }
+    DEF wheel2 HingeJoint {
+      jointParameters HingeJointParameters {
+        position -2431.063811865497
+        anchor -0.06 0 -0.02
+      }
+      device [
+        DEF encoder2 PositionSensor {
+          name "encoder2"
+        }
+        DEF motor2 RotationalMotor {
+          name "motor2"
+        }
+      ]
+      endPoint DEF wheel2 Solid {
+        translation -0.06000027483688375 -1.6678131823991127e-05 -0.020000290654645425
+        rotation -0.2530716746030662 -0.9338151915356989 -0.25287134193250516 4.644759908312724
+        children [
+          DEF wheel2 Shape {
+            appearance PBRAppearance {
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.03
+            }
+          }
+        ]
+        name "wheel2"
+        boundingObject USE wheel2
+        physics Physics {
+        }
+        linearVelocity -2.098335187345049e-05 -0.00016888202589593581 -1.2990612741800022e-06
+        angularVelocity 0.005445349243651995 -0.0009624218532206459 0.001403736526140412
+      }
+    }
+    DEF wheel1 HingeJoint {
+      jointParameters HingeJointParameters {
+        position -2210.5930029524816
+        anchor 0.06 0 -0.02
+      }
+      device [
+        DEF encoder1 PositionSensor {
+          name "encoder1"
+        }
+        DEF motor1 RotationalMotor {
+          name "motor1"
+        }
+      ]
+      endPoint DEF wheel1 Solid {
+        translation 0.060000141474585544 -8.172274104722417e-06 -0.02000021247098567
+        rotation -0.460004512385934 -0.7596897751073735 -0.45963822097589685 4.441708752308895
+        children [
+          DEF wheel1 Shape {
+            appearance PBRAppearance {
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.03
+            }
+          }
+        ]
+        name "wheel1"
+        boundingObject USE wheel1
+        physics Physics {
+        }
+        linearVelocity -1.3100621461146067e-05 0.00017306349741114384 -3.9506242117884926e-06
+        angularVelocity -0.005579351994127393 -0.0002247663588763636 0.0014347533389389192
+      }
+    }
+    DEF front Solid {
+      translation 0 0.05 0
+      children [
+        DEF front Shape {
+          appearance PBRAppearance {
+          }
+          geometry Cylinder {
+            height 0.05
+            radius 0.05
+          }
+        }
+      ]
+      boundingObject USE front
+      physics Physics {
+      }
+    }
+    DEF body Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.05
+      }
+    }
+  ]
+  boundingObject USE body
+  physics Physics {
+  }
+  controller "controlador"
+  linearVelocity -9.382819742380233e-05 6.4724308374283005e-06 1.1044724207409848e-05
+  angularVelocity -8.051231591126201e-05 -0.0005926905306960702 -0.00051854840398884
+}
+StraightStairs {
+  translation 3.31 -2.82 0
+}
